@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";  
+
+@import "~aos/dist/aos.css";
+body{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.p-flex{
+    display:flex;
+}
+.p-flex-align-center{
+    justify-content: center;
+}
+
+.p-flex-justify-sb{
+    justify-content: space-between;
+}
+ul{
+   list-style-type: none;
+   padding: 0;
+}
+.p-wrapper{
+    position:relative;
+
+}
+.p-wrapper::before{
+    content: '';
+    background: #222831;
+    height: 100vh;
+    width: 33vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.right-wrapper::before{
+    content: '';
+    background: #30475E;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -2;
+}
+

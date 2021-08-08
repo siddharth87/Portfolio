@@ -1,0 +1,40 @@
+.p-profile{
+    background: url(/assets/img/profile.jpeg);
+    width:100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.box{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 350;
+}
+.box div:after{
+    color: aliceblue;
+    font-size: 150px;
+    font-weight: 500;
+    
+    content:'Hello!';
+    animation: text 10s infinite;
+}
+@keyframes text{
+    20%{
+        content:'Namaste!';
+    }
+    40%{
+        content:'Bonjour!';
+    }
+    60%{
+        content:'Konnichiwa!';
+    }
+    80%{
+        content:'Nǐn hǎo!';
+    }
+}
+
+p{
+    margin-top: 60px;
+    font-size: 30px;
+}
