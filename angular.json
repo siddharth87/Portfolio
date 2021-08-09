@@ -28,8 +28,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "~aos/dist/aos.css",
-              "styles.scss"
+              "./node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
